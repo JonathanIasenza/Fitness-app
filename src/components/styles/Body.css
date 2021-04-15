@@ -1,0 +1,16 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background: url('./../../images/asd.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 50%;
+ }
+
+ @media (max-width:768px){
+    body{
+    background-size: 100%;
+    }
+}

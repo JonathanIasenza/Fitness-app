@@ -1,0 +1,98 @@
+.container-form {
+  padding: 40px;
+  margin: auto;
+}
+
+#card-img {
+  margin-left: -40%;
+  margin-top: 5%;
+}
+
+#hex {
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(59, 59, 59);
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.descrip-container {
+  margin: auto;
+}
+
+#descrip {
+  display: none;
+  background-color: rgb(59, 59, 59);
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  margin: auto;
+}
+
+a {
+  max-width: 70px;
+  margin: 10px;
+}
+
+#form-img {
+  background-color: rgb(208, 224, 252);
+}
+
+#form-color {
+  background-color: rgb(208, 224, 252);
+}
+
+.btn-primary {
+  background-color: #26a2b3;
+  border: 1px solid #8f8f8f;
+}
+
+.btn-primary:hover{
+    background-color: #117a88;
+    border: 1px solid #8f8f8f;
+}
+
+/* Responsive Design */
+
+@media (max-width: 720px) {
+    .descrip-container {
+      margin: auto;
+      text-align: center;
+    }
+  
+    #descrip {
+      display: inline-block;
+      font-size: 2vh;
+    }
+  
+    .btn {
+      display: flex;
+      margin: auto;
+    }
+  
+    #hex {
+      text-align: center;
+      font-size: 12px;
+    }
+      .container {
+        margin: auto;
+        max-width: 90%;
+      }
+  
+      #card-img {
+        margin: auto;
+        max-width: 85%;
+        font-size: 12px;
+      }
+  
+      #volver-btn {
+        display: flex;
+        margin-bottom: 20px;
+      }
+    }

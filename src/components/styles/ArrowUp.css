@@ -1,0 +1,40 @@
+#up{
+    border:none;
+    font-size: 45px;
+    filter: blur(.6px);
+    color:#2aa;
+    filter: drop-shadow(1px 1px 1px #818181);
+    transition: all .5s;
+    background-color: initial;
+    display: flex;
+    margin-top: -10%;
+    margin-left: -18%;
+}
+
+#up:hover{
+    color:#16a7e0;
+}
+
+#up-container{
+    position: sticky;
+    margin-left: 90%;
+    bottom: 20%;
+    margin-bottom: 10%;
+    padding-left: -200px;
+    transform: scale(0);
+    transition: all 1s;
+}
+
+.up-back{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+@media (max-width:720px){
+    .up{
+        margin-left: -18%;
+    }
+}

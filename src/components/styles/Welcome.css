@@ -1,0 +1,42 @@
+.Fitness-User-Info{
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    text-align: center;
+    margin:auto;
+    margin-top: 2%;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px 0px #bbbbbb,  4px 4px 0px rgba(1, 1, 0, 0.2);
+}
+
+.Fitness-User-Info p{
+  font-weight: 400;
+  font-style: oblique;
+  font-size: 1.2em;
+}
+
+  @media (max-width:768px){
+    .Fitness-User-Info h1{
+      font-size: 2.8em;
+    }
+    .Fitness-User-Info p{
+      display:none;
+    }
+  }
+
+  @keyframes slide{
+    from{
+      padding-left:800px;
+    }
+    to{
+      padding-left: -450px;
+    }
+  }
+
+
+  @media (max-width:920px){
+    .Fitness-User-Info{
+      margin-top:2%;
+    }
+  }

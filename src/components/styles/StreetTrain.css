@@ -1,0 +1,23 @@
+#street-title{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Roboto;
+    font-size: 5vh;;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px 0px #bbbbbb,  4px 4px 0px rgba(1, 1, 0, 0.2);
+}
+
+#parrafo-street{
+padding-left:40px;
+padding-right:40px;
+}
+
+/* Responsive Design */
+@media (max-width:720px){
+    #street-title{
+    background-color: rgba(207, 207, 207, .8);
+    border-radius: 10%;
+    }
+}
